@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+form{
+    border: solid 2px;
+    border-color: black;
+    height: 300px;
+    width: 500px;
+    margin-left: 720px;
+    margin-top: 20px;
+}
+#nome{  
+    height: 20px;
+    width: 450px;
+    margin: 25px 10px 20px 20px;
+    border-radius: 3px;
+}
+
+#email{
+    height: 20px;
+    width: 450px;
+    margin: 0px 10px 20px 20px;
+    border-radius: 3px;
+}
+
+#cargo{
+    height: 25px;
+    width: 457.50px;
+    margin: 0px 10px 20px 20px;
+    border-radius: 3px;
+}
+
+#mensagem{
+    height: 75px;
+    width: 450px;
+    margin: 0px 10px 20px 20px;
+    border-radius: 3px;
+}
+
+#cadastrar{
+    margin-left: 20px;
+}
+
+h1{
+    background-color: black;
+    height: 75px;
+    width: 100%;
+    color: white;
+    display: none;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}

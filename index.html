@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js\script.js"></script>
+</head>
+<body>
+
+    <h1>
+    </h1>
+
+    <form action="https://github.com/" >
+        <input type="text" placeholder="Nome" id="nome" onkeyup="ocultarErro()">
+
+        <input type="email" placeholder="Email"  id="email" onkeyup="ocultarErro()">
+
+        <select id="cargo" onkeyup="ocultarErro()">
+            <option> Cargo </option>
+            <option> Analista de Software </option>
+            <option> Atendente </option>
+            <option> Desenvolvedor </option>
+            <option> Design </option>
+            <option> Gerente </option>
+        </select>
+
+        <textarea placeholder="Mensagem" id="mensagem" onkeyup="ocultarErro()"></textarea>
+
+        <input type="submit" value="Cadastrar" id="cadastrar" onclick="return validar()">
+
+    </form>
+</body>
+</html>
